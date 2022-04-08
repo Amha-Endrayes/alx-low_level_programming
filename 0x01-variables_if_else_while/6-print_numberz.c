@@ -7,8 +7,8 @@
 int main(void)
 {
 	int n;
-
-	for (n = '0'; n <= '9'; n++)
+	/*ASCII CODE: '0' =  48, '9' = 57 */
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
 	}
