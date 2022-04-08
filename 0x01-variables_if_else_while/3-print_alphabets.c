@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ * ASCII CODE can also be used
+ * a - 97	A - 65
+ * z - 122	$ - 90
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int s, b;
 
-	for (s = 97; s <= 122; s++)
+	for (s = 'a'; s <= 'z'; s++)
 	{
 		putchar(s);
 	}
-	for (b = 65; b <= 90; b++)
+	for (b = 'A'; b <= '$'; b++)
 	{
 		putchar(b);
 	}
