@@ -12,7 +12,7 @@ int main(void)
 	for (mirror = 'z' ; mirror >= 'a' ; mirror--)
 	{
 	putchar (mirror);
-	}s
+	}
 	putchar('\n');
 	return (0);
 }
