@@ -3,7 +3,7 @@
  * main - Entry point
  * ASCII CODE can also be used
  * a - 97	A - 65
- * z - 122	$ - 90
+ * z - 122	Z - 90
  * Return: Always 0 (Success)
  */
 int main(void)
