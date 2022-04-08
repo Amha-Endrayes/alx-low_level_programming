@@ -8,10 +8,10 @@ int main(void)
 {
 	int n;
 	/*ASCII CODE: '0' =  48, '9' = 57 */
-	for (n = 48; n <= 57; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
