@@ -6,12 +6,13 @@
  *
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	char goToSleep;
-	for (goToSleep = 'a' ; goToSleep <= 'z' ; goToSleep++) 
+	for (goToSleep = 'a' ; goToSleep <= 'z' ; goToSleep++)
 	{
 	putchar (goToSleep);
 	}
+	putchar (" ");
 	return (0);
 }
