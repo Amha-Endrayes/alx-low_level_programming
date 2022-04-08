@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -13,6 +12,6 @@ int main(void)
 	{
 	putchar (goToSleep);
 	}
-	putchar (" ");
+	putchar('\n');
 	return (0);
 }
