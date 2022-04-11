@@ -21,21 +21,20 @@ int space = ' ';
 			}
 			else
 			{
-				putchar(a);
-				putchar(d);	
+			putchar(a);
+			putchar(d);
 				if (a + d < '8'+'9')
 				{
-					putchar(comma);
-					putchar(space);
+				putchar(comma);
+				putchar(space);
 				}
 				else
 				{
-				}	
-			}			
-		}				
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
-	
 }
 
