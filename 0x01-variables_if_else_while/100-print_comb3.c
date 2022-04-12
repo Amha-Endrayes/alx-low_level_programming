@@ -5,7 +5,7 @@
  * ASCII CODE can also be used
  * Return: Always 0 (Success)
  */
- 
+
 int main(void)
 {
 int d, a;
@@ -23,7 +23,7 @@ int space = ' ';
 			{
 			putchar(a);
 			putchar(d);
-				if (a + d < '8'+'9')
+				if (a + d < '8' + '9')
 				{
 				putchar(comma);
 				putchar(space);
