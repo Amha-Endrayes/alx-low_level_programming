@@ -28,7 +28,7 @@ for (a = '0'; a <= '9'; a++)
 			putchar(c);
 			putchar(d);
 
-			if ((a + b + c + d) < '9' + '8' + '9' + '9')
+			if ((a + b + c + d) <= '9' + '8' + '9' + '9')
 			{
 			putchar(comma);
 			putchar(space);
