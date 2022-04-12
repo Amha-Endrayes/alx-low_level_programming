@@ -34,7 +34,7 @@ for (a = '0'; a <= '9'; a++)
 			putchar(space);
 			}
 			else
-			{				
+			{
 			}
 
 			}
