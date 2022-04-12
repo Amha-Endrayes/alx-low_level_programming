@@ -45,7 +45,7 @@ for (a = '0'; a <= '9'; a++)
 		}
 	}
 }
-putchar('\n');
+putchar(10);
 return (0);
 
 }
