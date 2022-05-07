@@ -1,6 +1,7 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef FILE_HOLBERTON
+#define FILE_HOLBERTON
 
+#include <stdio.h>
 #include <stdlib.h>
 
 void _puts(char *str);
